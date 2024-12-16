@@ -45,11 +45,11 @@ const Timeline = () => {
             {milestones.map((milestone, index) => (
               <div key={index} className="relative">
                 <div className="flex items-center justify-center">
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-blue-600" />
+                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-green-600" />
                 </div>
                 <div className={`flex ${index % 2 === 0 ? 'justify-end' : ''} items-center w-1/2 ${index % 2 === 0 ? 'pr-8' : 'pl-8'}`}>
                   <div className={`bg-white p-6 rounded-lg shadow-lg ${index % 2 === 0 ? 'text-right' : 'text-left'}`}>
-                    <span className="text-blue-600 font-bold">{milestone.year}</span>
+                    <span className="text-green-600 font-bold">{milestone.year}</span>
                     <h3 className="text-xl font-semibold text-gray-900 mt-2">{milestone.title}</h3>
                     <p className="text-gray-600 mt-2">{milestone.description}</p>
                   </div>

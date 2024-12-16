@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Brain, Facebook, Twitter, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
-import Think from '../../assets/images/think_tank_info_tech.jpg';
+import Think from '../../assets/images/think_tank_info_tech_white.png';
 
 const Footer = () => {
   return (
@@ -12,8 +12,8 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               {/* <Brain className="h-8 w-8 text-blue-400" />
-              <span className="text-xl font-bold">Think Tank IT</span> */}
-              <img src={Think} />
+              <span className="text-xl font-bold">Brain Test</span> */}
+              <img src={Think} className="w-[192px] h-[48px]"  />
             </div>
             <p className="text-gray-400">
               Innovating the future of IT solutions with cutting-edge technology and expertise.

@@ -38,7 +38,7 @@ const CoreValues = () => {
               key={index}
               className="bg-white rounded-lg p-8 text-center shadow-lg hover:shadow-xl transition-shadow"
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 text-blue-600 mb-6">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 text-green-600 mb-6">
                 <value.icon className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">{value.title}</h3>

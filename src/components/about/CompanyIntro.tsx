@@ -7,15 +7,15 @@ const CompanyIntro = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-6">About Think Tank IT</h1>
+            <h1 className="text-4xl font-bold text-gray-900 mb-6">About Think Tank Info Tech</h1>
             <p className="text-lg text-gray-600 mb-8">
-              Since 2010, Think Tank IT has been at the forefront of technological innovation, 
+              Since 2010, Think Tank Info Tech has been at the forefront of technological innovation, 
               helping businesses transform their digital landscape with cutting-edge solutions 
               and expert consulting services.
             </p>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <Target className="h-6 w-6 text-blue-600 mt-1" />
+                <Target className="h-6 w-6 text-green-600 mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Our Mission</h3>
                   <p className="text-gray-600">
@@ -25,7 +25,7 @@ const CompanyIntro = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <Lightbulb className="h-6 w-6 text-blue-600 mt-1" />
+                <Lightbulb className="h-6 w-6 text-green-600 mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Our Vision</h3>
                   <p className="text-gray-600">

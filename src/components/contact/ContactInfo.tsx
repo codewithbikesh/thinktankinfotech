@@ -31,7 +31,7 @@ const ContactInfo = () => {
         <div key={index} className="flex items-start space-x-4">
           <div className="flex-shrink-0">
             <div className="p-3 bg-blue-100 rounded-lg">
-              <item.icon className="h-6 w-6 text-blue-600" />
+              <item.icon className="h-6 w-6 text-green-600" />
             </div>
           </div>
           <div>

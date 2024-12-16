@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Brain } from 'lucide-react';
-import Think from '../../assets/images/think_tank_info_tech.jpg';
+import Think from '../../assets/images/think_tank_info_tech.png';
 
 
 const Navbar = () => {
@@ -23,8 +23,8 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               {/* <Brain className="h-8 w-8 text-blue-600" />
-              <span className="text-xl font-bold text-gray-900">Think Tank IT</span> */}
-               <img src={Think} alt="Logo" />
+              <span className="text-xl font-bold text-gray-900">Brain Test</span> */}
+               <img src={Think} alt="Logo" className="w-[192px] h-[48px]" />
             </Link>
           </div>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 {item.name}
               </Link>
