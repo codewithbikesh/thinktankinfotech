@@ -8,7 +8,7 @@ const About = () => {
     <div className="pt-16">
       <CompanyIntro />
       <CoreValues />
-      <Timeline />
+      {/* <Timeline /> */}
     </div>
   );
 };

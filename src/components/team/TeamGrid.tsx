@@ -1,34 +1,38 @@
 import React from 'react';
 import { Linkedin, Mail } from 'lucide-react';
+import bikesh  from '../../assets/images/team/bikesh.jpg';
+import janam  from '../../assets/images/team/janam.jpeg';
+import pradip  from '../../assets/images/team/pradip.jpg';
+import dharmendra  from '../../assets/images/team/dharmendra.jpg';
 
 const teamMembers = [
   {
-    name: 'John Smith',
-    role: 'CEO & Founder',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
-    linkedin: '#',
-    email: 'john@thinktankit.com',
+    name: 'Janam Pandey',
+    role: 'Managing Director (MD)',
+    image: janam,
+    linkedin: 'https://np.linkedin.com/in/janam-pandey-6bb571199',
+    email: 'janam.pandey@thinktankinfotech.com',
   },
   {
-    name: 'Sarah Williams',
-    role: 'CTO',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
+    name: 'Pradip Timsina',
+    role: 'CO-Founder',
+    image: pradip,
     linkedin: '#',
-    email: 'sarah@thinktankit.com',
+    email: 'pradip.timsina@thinktankinfotech.com',
   },
   {
-    name: 'David Chen',
-    role: 'Head of Innovation',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
-    linkedin: '#',
-    email: 'david@thinktankit.com',
+    name: 'Bikesh Gupta',
+    role: 'CO-Founder',
+    image: bikesh,
+    linkedin: 'https://np.linkedin.com/in/bikesh-kumar-gupta-aa646b236',
+    email: 'bikesh.gupta@thinktankinfotech.com',
   },
   {
-    name: 'Emily Rodriguez',
-    role: 'Lead Developer',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
+    name: 'Dharmendra Thakur',
+    role: 'CO-Founder',
+    image: dharmendra,
     linkedin: '#',
-    email: 'emily@thinktankit.com',
+    email: 'dharmendra.thakur@thinktankinfotech.com',
   },
 ];
 

@@ -6,6 +6,8 @@ import Design_Feedback from '../../assets/images/services/designer.svg';
 import Mobile_Application from '../../assets/images/services/mobile_development.svg';
 import Online_add from '../../assets/images/services/seo.svg';
 import Web_Design  from '../../assets/images/services/graphic_designer.svg';
+import Software_Development  from '../../assets/images/services/software_development.svg';
+import SMM  from '../../assets/images/services/smm.svg';
 
 
 const services = [
@@ -40,6 +42,16 @@ const services = [
     title: 'Graphic Design',
     description: 'Designs that Speak Your Brand’s Narrative and Connect with Your Audience.',
   },
+  {
+    icon: Software_Development,
+    title: 'System/Software Development',
+    description: 'System/software developed according to your business needs.',
+  },
+  {
+    icon: SMM,
+    title: 'Social Media Marketing (SMM)',
+    description: 'Build a strong online presence and engage with your targeted audience',
+  }
 ];
 
 const Services = () => {
@@ -53,7 +65,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
